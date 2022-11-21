@@ -1,9 +1,8 @@
-/* HeroesComponent's private CSS styles */
 .heroes {
   margin: 0 0 2em 0;
   list-style-type: none;
   padding: 0;
-  width: 15em;
+  width: 14em;
 }
 
 .heroes li {
@@ -49,4 +48,29 @@
   text-align: right;
   margin-right: .8em;
   border-radius: 4px 0 0 4px;
+}
+
+button {
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #cfd8dc;
+}
+
+button.delete {
+  position: relative;
+  left: 214px;
+  top: -52px;
+  background-color: gray !important;
+  color: white;
+}
+
+input {
+  font-size: medium;
 }
